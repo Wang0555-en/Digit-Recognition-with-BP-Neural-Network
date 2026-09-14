@@ -1,0 +1,23 @@
+# Visual Studio and build output
+.vs/
+/bin/
+/obj/
+/dependencies/
+*.vcxproj.user
+__pycache__/
+*.py[cod]
+
+# Local datasets and training artifacts; keep model.bin for inference
+/MNIST/
+/mnist_train.csv
+/mnist_test.csv
+/training_dataset.csv
+/training_history.csv
+/model.checkpoint.bin
+/training_backups/
+
+# Local presentation builds, reports and generated previews
+/.presentation-build/
+/outputs/
+/digit_*.jpg
+/segmented_result.jpg
